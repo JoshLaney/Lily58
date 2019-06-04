@@ -54,81 +54,81 @@ When all diodes have been soldered, check for missing spots.
 
 
 
-## ソケットをはんだ付けする
-ソケットはダイオードと同じ面である裏面に取り付けをします。
+## Solder the Sockets
+The sockets are attached on the back side of the PCB (the same side as the diodes)
 
-ダイオードと同じようにソケットのパッドの片方に予備はんだをし、ソケットを載せ、ピンセットや手で抑えながらはんだ付けをします。(手で抑える場合は火傷にご注意ください。)  
-写真はMXソケットのためChocソケットは下側に取り付けをしてください。
+As with the diode, pre-solder on one side of the socket pad, place the socket, and hold it in place with tweezers or hand. (Please be careful not to burn yourself when holding down by hand.)
+As in the picture, install MX sockets in the upper section and Choc sockets on the lower section.
 ![socket](https://user-images.githubusercontent.com/6285554/57197682-3de1b580-6fa5-11e9-90b1-fca894e1e7d2.png)
 
-力がかかる部品のため、両方をしっかりとはんだ付けをし、浮きがないか確認をします。  
+For parts that require force, firmly solder both pads and check for freeness.
 ![2019-01-26 14 38 04](https://user-images.githubusercontent.com/6285554/51967230-2250a580-24b2-11e9-94ce-591746c49f50.jpg)
 
 
-## TRRSジャック リセットスイッチをはんだ付けする
-表面(目印のシールを貼り付けた方)に取り付けをします。  
-パーツを取り付け、マスキングテープで仮固定します。基板を裏返し、TRRSジャック、リセットスイッチが基板から浮いてないことを確認してはんだ付けをします。
+## Solder the TRRS connectors and rest switches.
+Mount on the top of the PCB (the side with the sticker on the mark).
+Attach the parts and fix them temporarily with masking tape. Turn over the board, solder it, making sure that the TRRS jack and reset switch do not float from the board.
 ![2019-01-26 14 39 53](https://user-images.githubusercontent.com/6285554/51967627-2c26d880-24b3-11e9-9764-aa51975c1eef.jpg)
 ![2019-01-26 14 43 23](https://user-images.githubusercontent.com/6285554/51967628-2cbf6f00-24b3-11e9-96e6-8f003c53d57b.jpg)
 
 
-## OLEDを取り付ける
-表面のProMicro部にある4つのジャンパ端子をはんだ付けし、ジャンパします。
-OLED用のコネクタを取り付けします。コネクタ内部にはんだが流れ込みやすいため、多くのはんだを流し込まないようにしてください。
+## Attach the OLEDS
+Solder and jumper the four jumper terminals in the ProMicro section of the surface.
+Attach the connector for OLED. Do not use a lot of solder, as it is easy for solder to flow into the connector.
 ![unadjustednonraw_thumb_2db2](https://user-images.githubusercontent.com/6285554/53293031-d45c6280-380f-11e9-8f1c-1c167b27cfd3.jpg)
 
-OLEDピンをソケットに差し込み、その上にOLEDモジュールを載せ、4箇所はんだ付けをします。
+Insert the OLED pins into the socket, place the OLED module on it, and solder the four pins.
 
 
-## Pro Microを取り付ける  
-ProMicroの袋に同封しているピンヘッダは使用しません。遊舎工房にて購入されたキットの場合スプリングピンヘッダが同梱されているのでそちらを使用します。  
+## Install the Pro Micros  
+The pin header enclosed in the bag of ProMicro is not used. In the case of a kit purchased at a playhouse studio, a spring pin header is included, so use that.  
 ![IMG_2662](https://user-images.githubusercontent.com/6285554/57210525-f5171480-7017-11e9-9d92-3a345d53db94.jpg)  
-スプリングピンヘッダ(コンスルー)で取り付ける際はHelixのビルドガイドに記載されている方法に従ってはんだ付けをしてからLily58のPCBに取り付けを行ってください。[Helixビルドガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)
+When attaching with a spring pin header (through hole), solder it according to the method described in the Helix build guide and then attach it to Lily 58 PCB [Helix Guide](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_en.md)
 
-**PCBの線で囲まれている列を確認して**PCBに差し込みます。左右で差し込む場所が異なるため注意してください。 
+**Check the outlined column of the PCB and insert the pins into the PCB.** Please be careful as the place to insert for the right and left sides is different. 
 
 ![ProMicro_PCB](https://user-images.githubusercontent.com/6285554/48819671-6a599a80-ed94-11e8-8e5d-6a6abca326a7.png)
 
 
-## スペーサーを取り付ける
-10mmの丸いスペーサー4つをProMicro付近の穴に取り付けします。  
-ネジを基板の裏側から差込み、スペーサーを上から取り付けると取り付けやすいです。
+## Attach the spacers
+Attach four 10 mm round spacers to the holes near ProMicro.
+It is easiest to insert a screw from the back of the board and attach the spacer from the top.
 ![2019-01-26 15 02 38](https://user-images.githubusercontent.com/6285554/51967859-c0913b00-24b3-11e9-966c-f3621ed398e5.jpg)
 
-最初につけた裏表識別用のマスキングテープはここで剥がしまします。
+The masking tape for the front and back identification applied in the beginning should now be removed.
 
-## キースイッチを取り付ける
-位置合わせのためトッププレートスペーサーを取り付けします。(MX:7mm Choc:4mm)
+## Attach the swithces
+Attach the top plate spacer for alignment. (MX: 7 mm Choc: 4 mm)
 ![2019-01-26 14 56 05](https://user-images.githubusercontent.com/6285554/51967395-912dfe80-24b2-11e9-9cc7-b4520063f36c.jpg)
 ![2019-01-26 14 56 24](https://user-images.githubusercontent.com/6285554/51967376-83787900-24b2-11e9-82a0-850556daccfc.jpg)  
 
-トッププレートにキースイッチを4箇所取り付けます。(Chocの場合は2箇所のほうが取り付けしやすいかもしれません)
+Attach four key switches to the top plate. (In the case of Choc, 2 places may be easier to install)
 ![2019-01-26 14 58 48](https://user-images.githubusercontent.com/6285554/51967380-87a49680-24b2-11e9-80b9-a45564afc8cf.jpg)
   
-位置の固定のためにスイッチを基板に差し込み、位置合わせをします。  
+Insert the switch into the board for alignment, and align it.
 ![2019-01-26 15 01 12](https://user-images.githubusercontent.com/6285554/51967478-c3d7f700-24b2-11e9-9f2f-4e75efc215a1.jpg)
 
 
-スイッチのピンの曲がりが無いことなどを確認してから、中列から取り付けていき最後に外側向かって取り付けていくとしっかりと取り付けることができます。  
-KailhBOXスイッチ、Chocスイッチは取り付けに力が多少必要なので注意してください。  
-しっかりと取り付けられてないことがあるので取り付けた後再度スイッチを押し込んで最後まで取り付けできているか確認します。
+After confirming that there are no bends in the switch pins, etc., you can attach it firmly from the middle row and attach it outward finally.
+Be careful because the KailhBOX switch and Choc switch need some power for installation.
+After installation, push the switch again to make sure that installation is complete.
 ![2019-01-26 15 10 06](https://user-images.githubusercontent.com/6285554/51967840-b66f3c80-24b3-11e9-8f50-6d8d31fe85e5.jpg)
 
-## ProMicro保護アクリルの取り付け
-ProMicro上部用のアクリルの保護紙を剥がし、取り付けます。  
-**幅が広い方を外側にして**取り付けます。上部をネジ止めします。
+## Install ProMicro Protective Acrylic
+Peel off the acrylic protective paper for ProMicro upper part and attach it.
+**Mount with the wider side outwards**. Screw the top.
 ![plate](https://user-images.githubusercontent.com/6285554/48837829-c4288780-edc9-11e8-8efb-6714d8e68e92.png)
 
 ![2019-01-26 15 21 15](https://user-images.githubusercontent.com/6285554/51967842-b8d19680-24b3-11e9-8402-85180ce10403.jpg)
 
-## キーマップの書き込み
-キーマップを書き込むために準備が必要です。導入されていることを前提に記述しております。[qmk公式のページなどを参考に導入して下さい。](https://docs.qmk.fm/#/getting_started_build_tools) (WIndows:MSYS2 Mac,Linux系:avrdude)
+## Write the Key Map
+Set up qmk following the link here: [qmk](https://docs.qmk.fm/#/getting_started_build_tools) (WIndows:MSYS2 Mac,Linux:avrdude)
 
-QMK Toolboxを使用すれば環境構築の必要が無く、GUIで書き込みが行うことができます。(カスタマイズする場合は上記の書き込み環境を構築することを推奨します)
+QMK ToolboxThere is no need to build an environment, and writing can be done using a GUI. (It is recommended to build the above writing environment when customizing)
 [qmk/qmk_toolbox](https://github.com/qmk/qmk_toolbox/releases)  
 
  
-Lily58のデフォルトキーマップを書き込むにはqmk_firmwareのフォルダ階層で以下を実行します
+Execute the following in qmk_firmware folder hierarchy to write default key map of the Lily58
 
     sudo make lily58:default:avrdude  
 
