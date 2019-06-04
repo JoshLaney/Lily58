@@ -1,24 +1,24 @@
-# Lily58 Pro ビルドガイド[WIP]
+# Lily58 Pro Build Guide [WIP]
 
 
-## 必要部品
+## Parts Needed
 
-| パーツ名 |  個数  |  備考  | 写真 |
+| Name |  Quantity  |  Comments  | Picture |
 |--------|-------|-------|-------|  
-|Lily58 PCB | 2枚 ||
-|Lily58 ケース|1セット4枚||
-|[ProMicro](https://yushakobo.jp/shop/promicro-spring-pinheader/)|2個|はんだ付けの回数が減り、破損しやすいコネクタのためProMicroの交換が可能になる別売の[スプリングピンヘッダ(コンスルー)](https://yushakobo.jp/shop/a01mc-00/)の使用を推奨(遊舎工房での販売品にはコンスルーが付属しています)||
-|キースイッチ(CherryMX,kailh choc)|58個|MXスイッチとchocスイッチはどちらかの排他利用||
-|[スイッチソケット](https://yushakobo.jp/shop/)|58個|キースイッチの取り付けに必要||
-|キーキャップ|58個|1.5Uの部分は1Uでも可||
-|ダイオード 1N4148W|58個|||
-|タクトスイッチ|2個|||
-|TRRSジャック|2個|||
-|M2 スペーサー |10個,4個|Choc:4mm,MX:7mm||
-|M2 ネジ|28個|||
-|TRRSケーブル|1本|AUXケーブルとも呼ばれている3.5mmオーディオ用のケーブル(4極ケーブルを推奨)||
-|MicroUSBケーブル|1本|Pro Micro側のコネクタの耐久性が低いためマグネット式を推奨||
-|OLEDモジュール|2個|||
+|Lily58 PCB | 2 Boards ||
+|Lily58 Case|1 Set, 4 Pieces||
+|[ProMicro](https://yushakobo.jp/shop/promicro-spring-pinheader/)|2|It is recommended to use the separately sold [Spring Pin Header] (https://yushakobo.jp/shop/a01mc-00/), which can replace ProMicro due to the reduced number of solderings and fragile connectors. It is included in the items sold at the playhouse studio||
+|Swithces (CherryMX,kailh choc)|58|Only supports MX or Choc switches||
+|[Switch Sockets](https://yushakobo.jp/shop/)|58|Nesseasry for mounting swithces||
+|Keycaps|58|1.5U used for thumb keys||
+|Diodes 1N4148W|58|||
+|Tact (reset) switch|2|||
+|TRRS Jack |2|||
+|M2 standoffs |10,4|Choc:4mm,MX:7mm||
+|M2 screws|28|||
+|TRRS Cable|1|3.5mm audio cable/AUX cable. 4 pin is required||
+|MicroUSB Cable |1|Magnetic Style recommened due to poor durability of connector on the Pro Micro||
+|OLED Display|2|||
 
 ## はじめに
 Pro版はカラーバリエーションがあり、このビルドガイドの写真ではBlack版での実装をしていますがWhite版でも実装方法は全く変わらないため色を置き換えて進めてください。カラーや発売時期によって多少写真とは違うバーツが使われていることがございますが動作には差はありません。  
