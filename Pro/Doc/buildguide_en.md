@@ -20,36 +20,36 @@
 |MicroUSB Cable |1|Magnetic Style recommened due to poor durability of connector on the Pro Micro||
 |OLED Display|2|||
 
-## はじめに
-Pro版はカラーバリエーションがあり、このビルドガイドの写真ではBlack版での実装をしていますがWhite版でも実装方法は全く変わらないため色を置き換えて進めてください。カラーや発売時期によって多少写真とは違うバーツが使われていることがございますが動作には差はありません。  
+## First Steps
+The Pro version has color variations, and the photos in this build guide are implemented with the Black version, but even with the White version, the implementation method does not change at all, so ignore the color and proceed. Depending on the color and release date, there may be from a different batch than the photo, but there is no difference in operation. 
   
-**また、Black版のケースは傷が付きやすい塗料(レジスト)のため輸送時の段階で既に傷が付いている物があります。  製品の特性上このようになってしまうため予めご了承ください。  
-また、組み立て後も硬いものに当たったり擦れたりすると傷が付きますのでご注意ください。**
+**In addition, the case of the Black version is a scratch-resistant paint (resist), and can be scratched during transportation. Please note in advance that this will be the nature of the product.
+In addition, please be careful as it will be scratched if it hits or rubs a hard thing after assembly.**
 
-この基板(PCB)はリバーシブルタイプです**片面づつに**部品を実装していきます。
+The PCB is reversible . **Parts will be mounted on each side.**
 
-裏表をわかりやすくするためマスキングテープなどで表面などに目印を付けます。
+Mark the surface with masking tape etc. to make it easy to understand the back and front.
 ![51965707-c6841d80-24ad-11e9-8e00-b7113b20fb67](https://user-images.githubusercontent.com/6285554/51967194-0947f480-24b2-11e9-860f-e45197cf0983.jpg)
 ![unadjustednonraw_thumb_2ccb](https://user-images.githubusercontent.com/6285554/53638905-1d2a7600-3c6b-11e9-9a39-a121c9b407b6.jpg)
 
 
-## ダイオードを取り付ける
-ダイオードはチップタイプの物を使用します。リールに入っており、開封時に簡単に飛んでいってしまうので注意しながらゆっくりと開封します。(小皿の上などに置くと組立時にわかりやすいです)
+## Install the Diodes
+These diodes are surface mount. They are in a reel, and it's easy for them to fly  everywhere when opening it, so open it slowly and carefully. (It is easy to understand at when assembling)
 ![2019-01-26 13 52 14](https://user-images.githubusercontent.com/6285554/51967206-1238c600-24b2-11e9-9617-01d8755c5b7f.jpg)
 
-実装する面は**裏面**になります。  
+Mount the diodes on the **back side** of the PCB.  
 
-ダイオードの線が以下の図のように常に基板の表示の三角形の棒のある方向に向いた状態ではんだ付けをしてください。向きが正しくないとキーが反応しません。
+Solder with the diode with the line pointing in the direction of the triangle bar on the silkscreen as shown in the following figure. If the direction is incorrect, the key will not respond.
 ![2019-02-28 14 08 00](https://user-images.githubusercontent.com/6285554/53542561-53300300-3b62-11e9-8b83-5758ce400491.png)
 
-PCBのダイオードの片方のパッドに予備はんだ(基板にはんだを少し溶かして盛る)をします。
+Apply preliminary solder (melt the solder a little on the substrate) on one of the diode pads on the PCB.
 ![2019-01-26 13 48 26](https://user-images.githubusercontent.com/6285554/51965724-cbe16800-24ad-11e9-8afc-17c5b8eebda8.jpg)
 
-その後ピンセットを使用してダイオードの片方を予備はんだを使用してはんだ付けをし、ダイオードを固定します。
+Then use tweezers to solder one side of the diode to the pre-soldered pad.
 ![2019-01-26 13 54 10](https://user-images.githubusercontent.com/6285554/51967222-1cf35b00-24b2-11e9-9624-26ff45f7bc9b.jpg)
-続いてもう片方もはんだ付けをします。  
+Then solder the other side.
   
-すべてのダイオードのはんだ付けが終わったらはんだ付けし忘れている箇所がないかチェックします。
+When all diodes have been soldered, check for missing spots.
 ![2019-01-26 14 18 25](https://user-images.githubusercontent.com/6285554/51967226-1f55b500-24b2-11e9-93f5-2802156a4d10.jpg)
 
 
