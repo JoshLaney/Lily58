@@ -133,59 +133,59 @@ Execute the following in qmk_firmware folder hierarchy to write default key map 
     sudo make lily58:default:avrdude  
 
 
-**Detecting USB port, reset your controller now...** と表示されたらキーボード上のリセットボタンを押すと書き込みが始まります。  
-上記の要領でもう片方のキーボードにも同じように書き込みを行って下さい。 
+**Detecting USB port, reset your controller now...** When it is displayed, press the reset button on the keyboard to start writing.
+Please write to the other keyboard in the same way as above. 
 
-Defaultキーマップは以下のようになっています。  
-macOS/USキーボード 環境で使用する前提で作られているキーマップ配置なのでJIS配列に変更や英/かな切り替えなどのキーマップを追加するなど使用者の方に合わせたキーマップを作ってみてください。自作キーボードの醍醐味です。  
+Default Keymap is as follows:  
+Since the key map layout is made on the assumption that it is used in the macOS / US keyboard environment, try making a key map that matches the user, such as adding a key map such as changing to the JIS layout or switching between English and Kana. The best of my own keyboard.
 ![lily58_default](https://user-images.githubusercontent.com/6285554/47273241-38ee8300-d5cc-11e8-9099-10c1b35e24fc.png)
 
-## 動作確認
-左右をTRRSケーブルで接続し左側のProMicro(デフォルトキーマップの場合)にMicroUSBケーブルを接続しキーが反応するかを確認して下さい。  
-裏面にゴム足を4箇所取り付けて完成です。お疲れ様でした。
+## Action confirmation
+Connect the left and right with a TRRS cable, connect the MicroUSB cable to ProMicro on the left side (in the case of the default key map), and check if the key responds.
+It is completed by attaching four rubber feet to the back. Thank you for your hard work.
 ![2019-01-26 15 24 52](https://user-images.githubusercontent.com/6285554/51967992-24b3ff00-24b4-11e9-8cd3-1e679094682f.jpg)
 ![unadjustednonraw_thumb_2ddc](https://user-images.githubusercontent.com/6285554/53640050-6203dc00-3c6e-11e9-9434-5591ed3e414f.jpg)
 
 
-## 困ったときは
-### Q.1列(複数列)又は1行(複数行)キースイッチが反応しない
-A.ProMicroのはんだ付け、取り付けしっかりとできてない場合があります。再度確認し、必要に応じて再度はんだ付け、取り付けを行ってください。
+## FAQ
+### Q.One column (multiple columns) or one row (multiple lines) key switch does not respond
+A.ProMicro might not be soldered firmly. Check again, and re-solder and install if necessary.
 
-### Q.キースイッチが単体で反応しない
-A.キースイッチの差し込み、ソケット又はダイオードのはんだ付けに問題がある可能性があります。
+### Q.Single switch does not work
+A.There may be a problem with the key switch insertion, socket or diode soldering.
 
-キースイッチの差し込みの場合  
-1度キースイッチを抜いてからピンの曲がりなどが無いかを確認して再度強く押し込んで取り付けてください。
+In the case of key switch insertion
+After removing the key switch once, make sure that there is no bending of the pin, and then push it in again and install it.
 
-ソケットのはんだ付けの場合  
-問題のソケットのはんだ付け箇所に再度はんだごてを当て必要に応じてはんだを流してください。  
+In the case of socket soldering
+Re-solder the soldering point of the problem socket and pour the solder if necessary.
   
-ダイオードのはんだ付けの場合
-問題のダイオードの向きを確認してください。間違っていた場合は外してはんだ付けし直してください。
-はんだ付けが足りない場合は再度はんだ付けを行ってください。
+In the case of diode soldering
+Check the direction of the diode in question. If it is wrong, remove it and re-sold it.
+If soldering is not enough, please replace.
 
-### Q."@"や"["などで入力した記号と違う記号が入力される(Windows等)
-OS上でキーボードの認識がJISキーボードとして認識されているためLily58(USキーボード扱い)で入力した際に別の記号が入力されてしまいます。  
-OSのキーボード設定でLily58をUSキーボードとして設定してください。切り替え後、日本語入力への切り替えがUSキーボード用の切り替えキーになり、JISキーボードとは異なりますのでご注意ください(キーマップなどでカスタマイズ可能)。
+### Q.A symbol different from the symbol entered with "@" or "[" etc. is entered (Windows etc.)
+Since recognition of keyboard is recognized as JIS keyboard on OS, another symbol will be input when inputting with Lily 58 (treated as US keyboard).
+Please set Lily 58 as a US keyboard in the keyboard setting of OS. After switching, switching to Japanese input becomes the switching key for the US keyboard, and it differs from the JIS keyboard, so please be careful (it can be customized with the key map etc.).
 
 
-**困った場合などはお気軽にDiscordサーバー([Self-Made Keyboards in Japan](https://discordapp.com/invite/NM7XtDW))の「#Lily58」チャンネルもしくはTwitter:@F_YUUCHIにメッセージをお送りください**
+**Feel free to contact us if you have any problems etc. [Self-Made Keyboards in Japan](https://discordapp.com/invite/NM7XtDW))Please send a message to "# Lily58" channel or Twitter: @F_YUUCHI**
 
-## キーマップ変更をする
-自作キーボードは上記で使用したqmk firmwareを使用して動作をしています。  
-qmk firmwareはカスタマイズ性が非常に高く、キーマップを編集するだけでも非常に高機能にカスタマイズすることができます。
-### keymap.cを編集してカスタマイズする
-キーマップをカスタマイズする場合はqmk_firmware/keyboards/lily58/keymaps/defaultのフォルダを任意の名前でコピーします。
-内部にあるkeymap.cを適宜変更をします。  
-キーコードは以下の[qmkの公式ドキュメント](https://docs.qmk.fm/#/keycodes)等を参考にしてください。
+## Change key map
+The self-made keyboard is operating using qmk firmware used above.  
+The qmk firmware is highly customizable, and you can customize it with very high functionality simply by editing the key map.
+### Edit and customize keymap.c
+When customizing key map, copy the folder of qmk_firmware / keyboards / lily58 / keymaps / default with any name.
+Modify the internal keymap.c accordingly.
+The keycode are [qmk keycodes](https://docs.qmk.fm/#/keycodes)
 
-キーマップ変更後は
+After changing the key map
 
-    sudo make lily58:(任意のフォルダ名):avrdude  
+    sudo make lily58:(Folder Name):avrdude  
 
-で書き込みを行います。エラーが出る場合は確認をしてください。  
+Write at. If you get an error, please check. 
   
-### QMK Configuratorを使用してカスタマイズする方法(非推奨)
-[QMK Configurator](https://config.qmk.fm/#/lily58/rev1/LAYOUT)を使用するとkeymap.cファイルを編集せずにブラウザ上でオリジナルのキーマップを作成可能です。  
-作成後ダウンロードしたjsonファイルをQMK Toolboxに読み込み、書き込みを行います。
+### How to customize using QMK Configurator (deprecated)
+[QMK Configurator](https://config.qmk.fm/#/lily58/rev1/LAYOUT)You can use it to create original keymaps on your browser without editing the keymap.c file.
+Load the downloaded json file into the QMK Toolbox and write it.
 
